@@ -1,28 +1,24 @@
-# Online Retail Sales Analysis & Forecasting
+# RFM Customer Segmentation Project
 
-This project provides a complete end-to-end analysis of an online retail store's transactional data. The goal is to gain business insights, understand customer purchasing behavior, and predict future sales using machine learning techniques.
+This project analyzes customer behavior for an online retail dataset using RFM (Recency, Frequency, Monetary) analysis and clustering.
 
-## Project Objectives
+## Project Overview
+- **Dataset:** Online retail transactions without customer IDs.
+- **Goal:** Segment customers based on purchase behavior.
+- **Methods:** Data cleaning, feature engineering, RFM scoring, KMeans clustering.
+- **Visualization:** Bar plots and heatmaps to interpret clusters.
+- **Tools:** Python (Pandas, Scikit-learn, Seaborn, Matplotlib), Jupyter Notebook.
 
-- Clean and preprocess raw transactional data
-- Perform exploratory data analysis (EDA) to understand trends and patterns
-- Segment customers using RFM (Recency, Frequency, Monetary) analysis
-- Forecast future sales using time-series models
-- Visualize key findings using clear and informative charts
+## Project Structure
+- `data/` : Contains the raw dataset.
+- `notebooks/` : Contains the Jupyter notebook with detailed analysis.
+- `scripts/` : Python scripts for reproducibility.
+- `app/` : A simple dashboard app (optional).
+- `README.md` : Project description.
+- `requirements.txt` : List of Python packages.
 
-## Technologies Used
-
-- Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-- Time-Series Forecasting (ARIMA, Facebook Prophet)
-- Jupyter Notebook
-
-## Key Insights
-
-- Identified top-selling products and peak sales periods
-- Discovered customer segments based on purchase behavior
-- Built predictive models for revenue forecasting
-
-## Data Source
-
-This project uses the **Online Retail II dataset**, which contains transactional data from a UK-based online retailer.
-
+## How to Run
+1. Clone the repo.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
