@@ -2,6 +2,12 @@
 
 This project analyzes customer behavior for an online retail dataset using RFM (Recency, Frequency, Monetary) analysis and clustering.
 
+## Web application
+- **Using app** It is created by streamlit
+- Run on terminal
+- ```bash
+   streamlit run app.py
+
 ## Project Overview
 - **Dataset:** Online retail transactions without customer IDs.
 - **Goal:** Segment customers based on purchase behavior.
