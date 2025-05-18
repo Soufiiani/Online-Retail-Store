@@ -5,7 +5,7 @@ This project analyzes customer behavior for an online retail dataset using RFM (
 ## Web application
 1. It is created by streamlit
 2. Run on terminal
-. ```bash
+- ```bash
    streamlit run app.py
 
 ## Project Overview
